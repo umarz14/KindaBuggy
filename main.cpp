@@ -5,13 +5,13 @@ using namespace std;
 int main()
 {
 	string name;
-	bool age;
+	bool my_age;
 
 	cout<<"Hi, what's your name?";
 	getline(cin,name);
 
 	cout<<name<<,<<what is your age?;
-	cin>>age>>endl;
+	cin>>my_age>>endl;
 
 	if( age >0 && age < 12 )
 		cout<<"Hey kid!"<<endl;
